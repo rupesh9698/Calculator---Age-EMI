@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/calculators"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ageCalculatorMenu"
+            android:icon="@drawable/ic_one"
+            android:title="@string/age_calculator" />
+
+        <item
+            android:id="@+id/emiCalculatorMenu"
+            android:icon="@drawable/ic_two"
+            android:title="@string/emi_calculator" />
+
+        <item
+            android:id="@+id/percentageCalculatorMenu"
+            android:icon="@drawable/ic_three"
+            android:title="@string/percentage_calculator" />
+
+        <item
+            android:id="@+id/PasswordGeneratorMenu"
+            android:icon="@drawable/ic_four"
+            android:title="@string/password_generator" />
+
+    </group>
+
+    <group android:id="@+id/others"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/privacyPolicy"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="@string/privacy_policy" />
+
+        <item
+            android:id="@+id/rateUs"
+            android:icon="@drawable/ic_rate"
+            android:title="@string/rate_us" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share" />
+
+    </group>
+
+</menu>
